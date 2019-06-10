@@ -1,198 +1,159 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Delani studio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <link href="CSS/bootstap.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div class="intro">
-      <img id="logo" src="IMAGES/logo/logo.png" alt="logo">
-      <h1 id="h1">WELCOME</h1>
-      <h2 id="h2">TO DELANI STUDIO</h2>
-      <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIROMENT</p>
-      <img id="mouse" src="IMAGES/mouse_click.png" alt="mouse">
-    </div>
-    <div class="two">
-      <h3>ABOUT US</h3>
-      <p>When you work with us you are part of a team of commited collaborators.
-        All aspects of our software development processes integrated, interactive
-        <br>and agile.
-      </p>
-      <p>Our approach unifies design, development and produc management to create exceptional products.
-      </p>
-      <p>We start each project by understanding your business goals,
-        the user's needs and the product requirements.
-      </p>
-      <p>Then we help translate them into effective and elegent solions.</p>
-    </div>
-    <div class="about">
-      <h4 id="service">SERVICES</h4>
-      <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to
-         understand your product vision.
-       </p>
-      <p>The outcome of this scoping session is proposal or high-level statement of work.</p>
-      <p>based on your requirements, we can provide a complete offering or just the pieces you need.</p>
-    </div>
-      <h3 id="pen"><strong>WHAT WE DO</strong></h3>
-    <div class="four">
-      <div class="col-md-4">
-        <div class="show1">
-            <span class="clickable1"><img src="IMAGES/services_icon/design_icon.png" alt="design"></span>
-        </div>
-        <div class="hide1">
-          <span class="clickable1"><h6>DESIGN</h6>
+<html>
 
-          <p>Our design practice offers a full range of services including brand strategy, interaction
-            and visual design and user experience testing. Throughout your project, our designers create and implement visual design
-            and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-          </p></span>
+<head>
+
+  <meta charset=UTF-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>DELANI STUDIO</title>
+</head>
+
+<body>
+<div class="header">
+    <img src="img/logo.png" alt="an image of the logo">
+    <h1>WELCOME <br>TO DELANI STUDIO</h1>
+    <p>Amazing people are making amazing designs in a fun environment</p>
+    <img src="img/mcon1.png" alt="image of mouse click">
+  </div>
+  <div class="container">
+    <h2>ABOUT US</h2>
+    <p>When you work with us,you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive and agile.</p>
+    <p>Our approach unifies design,development and product management to create execptional design.</p>
+    <p>We start each project by understanding your business goals,the user's needs and the product requirements.</p>
+    <p>Then we help translate them into effective and elegant solutions.</p>
+    <div>
+      <div class="services">
+
+        <h2>SERVICES</h2>
+        <p>Before we sign a contract or write a line of code our team will spend the neccessary time neede to understand your product vision</p>
+        <p>The outcome of this scoping session is a proposal or high-level statement of work. </p>
+        <p>based on your requirements we can provide a complete offering or just the pieces you need</p>
+
+      </div>
+    </div>
+    <h2>WHAT WE DO</h2>
+    <div class="row">
+      <div class="col-4 clickable">
+        <div id="hidden">
+          <img src="img/icon1.png" alt="an image of design icon">
+          <p><span>DESIGN</span></p>
+        </div>
+        <div id="showing">
+          <h3><span>DESIGN</span></h3>
+          <p> Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
+            user
+            feedback and work with you to make sure what gets built is what is needed.</P>
         </div>
       </div>
-        <div class="col-md-4">
-        <div class="show2">
-            <span class="clickable2"><img src="IMAGES/services_icon/dev_icon.png" alt="development"></span>
+      <div class="col-4 clickable-d">
+        <div id="hidden-d">
+          <img src="img/icon2.png" alt="an image of development icon">
+          <p><span class="clickable-d">DEVELOPMENT</span></p>
         </div>
-        <div class="hide2">
-          <span class="clickable2"><h6>DEVELOPMENT</h6>
-          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
-          They collaborate with your team to write, and improve code on a daily basis, using proven
-          practices such as test-driven
-          development and pair programming.
-        </p></span>
+        <div id="showing-d">
+          <h3><span class="clickable-d">DEVELOPMENT</span></h3>
+          <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair
+            programming.</p>
         </div>
-    </div>
-
-        <div class="col-md-4">
-        <div class="show3">
-          <span class="clickable3"><img src="IMAGES/services_icon/product_icon.png" alt="product"></span>
+      </div>
+      <div class="col-4 clickable-p">
+        <div id="hidden-p">
+          <img src="img/icon3.png" alt="an image of product icon">
+          <p><span class="clickable-p">PRODUCT MANAGEMENT</span></p>
         </div>
-        <div class="hide3">
-          <span class="clickable3"><h6>PRODUCT MANAGEMENT</h6>
-          <p>Planning and development is iterative. Because we are constantly coding and testing,
-            the products we build are always ready to go live.This iterative process allows for
-            changes as business requirements evolve.
-          </p></span>
+        <div id="showing-p">
+          <h3><span class="clickable-p">PRODUCT MANAGEMENT</span></h3>
+          <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
         </div>
       </div>
     </div>
 
+  </div>
 
-    <div class="container">
 
-      <h3 id="port"><strong>PORTFOLIO</strong></h3>
 
-      <div class="row">
-
-        <div class="col-md-3">
-          <img src="IMAGES/portfolio/work4.jpg" alt="blank image" width="100%">
-          <div class="B">
-            <p>Black</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <img src="IMAGES/portfolio/work3.jpg" alt="ontario" width="100%">
-          <div class="B">
-            <p>Ontario</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <img src="IMAGES/portfolio/work2.jpg" alt="Yellow" width="100%">
-          <div class="B">
-            <p>Yellow</p>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <img src="IMAGES/portfolio/work1.jpg" alt="img"width="100%">
-          <div class="B">
-            <p>Pro</p>
-          </div>
-
-        </div>
+  <h2>PORTFOLIO</h2>
+  <div class="row">
+    <div class="col-2 offset-2">
+      <img src="img/img6.jpg" alt=" portfolio" height="200" width="200">
+      <div class="over">
+        <h3>Image 1</h3>
       </div>
-      <div class="row">
-      <div class="col-md-3">
-        <img src="IMAGES/portfolio/work5.jpg" alt="img" width="100%" class="image">
-
-        <div class="B">
-          <p> Pro</p>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <img src="IMAGES/portfolio/work6.jpg" alt="img6" width="100%" class="image">
-        <div class="B">
-          <p>Pro</p>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <img src="IMAGES/portfolio/work7.jpg" alt="burned" width="100%" class="image">
-        <div class="B">
-          <p>Burned</p>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-       <img src="IMAGES/portfolio/work8.jpg" alt="img8" width="100%" class="image">
-       <div class="B">
-         <p>Giraffe</p>
-       </div>
-     </div>
     </div>
+    <div class="col-2">
+      <img src="img/img5.jpg" alt=" portfolio" height="200" width="200">
+      <div class="over">
+        <h3>Image 2</h3>
+      </div>
     </div>
-
-    <div class="form">
-      <h4>CONTACT US</h4>
-      <form method="post">
-        <div class="row2">
-        <div class="col-md-2 form-group">
-          <input type="text" id="name" name="name" placeholder="Name..." value="" style="padding-right:300px;">
-        </div>
-        <div class="col-md-2 form-group">
-          <input type="email" id="email" name="Email" placeholder="Email... "value="">
-        </div>
+    <div class="col-2">
+      <img src="img/img4.jpg" alt="portfolio" height="200" width="200">
+      <div class="over">
+        <h3>Image 3</h3>
       </div>
-      <div class="form-group">
-        <textarea name="message" type="text" id="message" rows="8" cols="80" placeholder="Your message here...">
-        </textarea>
-        <input type="submit" id="sub" name="submit" value="submit">
-       </form>
-       </div>
+    </div>
+    <div class="col-2">
+      <img src="img/img3d.jpg" alt="image of portfolio" height="200" width="200">
+      <div class="over">
+        <h3>Image 4</h3>
       </div>
-      <footer>
-        <div class="media">
-          <ul>
-            <li><img src="IMAGES/social_icons/twitter.png" alt="twitter"></li>
-            <li><img src="IMAGES/social_icons/dribble.png" alt="dribble"></li>
-            <li><img src="IMAGES/social_icons/facebook.png" alt="fb"></li>
-            <li><img src="IMAGES/social_icons/g_plus.png" alt="g+"></li>
-            <li><img src="IMAGES/social_icons/skype.png" alt="skype"></li>
-            <li><img src="IMAGES/social_icons/stumble_upon.png" alt="stumble"></li>
-            <li><img src="images/behance.png" alt="behance"></li>
-            <li><img src="images/pinterest.png" alt="pinterest"></li>
-            <li><img src="images/flickr.png" alt="flickr"></li>
-          </ul>
-        </div>
-
-      <div class="text">
-        <p>DELANI STUDIO<br>2019</p>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-2 offset-2">
+      <img src="img/img7.jpg" alt=" portfolio" height="200" width="200">
+      <div class="over">
+        <h3>Image 5</h3>
       </div>
-    </footer>
-    <script
-    			  src="https://code.jquery.com/jquery-3.4.1.min.js"
-    			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    			  crossorigin="anonymous"></script>
+    </div>
+    <div class="col-2">
+      <img src="img/img8.jpg" alt=" portfolio" height="200" width="200">
+      <div class="over">
+        <h3>image 6</h3>
+      </div>
+    </div>
+    <div class="col-2">
+      <img src="img/img9.jpg" alt="portfolio" height="200" width="200">
+      <div class="over">
+        <h3>Image 7</h3>
+      </div>
+    </div>
+    <div class="col-2">
+      <img src="img/img10.jpg" alt="image of portfolio" height="200" width="200">
+      <div class="over">
+        <h3>Image 8</h3>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <h2>CONTACT US</h2>
+    <form action="">
+    <input type="text" id="fname" name="firstname" placeholder="name"="Name">
+    <input type="text" name="email" placeholder="Email"><br><br>
+    <textarea name="name" rows="8" cols=="60" placeholder="Your Message here"></textarea><br>
+    <input type="submit" id="submit" value="submit">
+  </form>
+  </div>
+<div class="icons">
+  <img src="img/sicon8.png" alt="twitter">
+  <img src="img/sicon2.png" alt="dribble">
+  <img src="img/sicon3.png" alt="facebook">
+  <img src="img/sicon5.png" alt="googleplus">
+  <img src="img/sicon6.png" alt="skype">
+  <img src="img/sicon7.png" alt="stumble">
+  <img src="img/sicon1.png" alt="behance">
+  <img src="img/sicon10.png" alt="pinterest">
+  <img src="img/sicon4.png" alt="flickr">
+  <p>DELANI STUDIO</p>
+  <p>2019</p>
 
-    crossorigin="anonymous">
-  </script>
-    <script src="js/scripts.js" type="text/javascript">
-    </script>
-  </body>
+</div>
+
+</body>
+
 </html>
